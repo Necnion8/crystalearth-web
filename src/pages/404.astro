@@ -1,0 +1,21 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Sidebar />
+		<main>
+			<h1 style="text-align: center;">404 Not found</h1>
+			<h2 style="text-align: center;">ページが見つかりません。</h2>
+		</main>
+		<Footer />
+	</body>
+</html>
