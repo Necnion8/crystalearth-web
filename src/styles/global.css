@@ -49,7 +49,7 @@ main {
 	width: 720px;
 	max-width: calc(100% - 2em);
 }
-section {
+.container {
 	margin-left: 85px;
 }
 
